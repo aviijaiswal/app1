@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paydesign.css">
+</head>
+
+<body>
+    <h2>Choose your payment method </h2>
+    <div class="main">
+        <div class="ist">
+            <input type="radio" id="PayPal"> PayPal
+            <img src="paypal.png" class="pay" alt="Image" width=14%>
+            <h4>Safe payment online.Credit Card needed.Paypal account is not necessary</h4>
+        </div>
+        <hr>
+        <input type="radio" id="Gpay"> GooglePay
+        <img class="pay" src="gpay.png" alt="Image" width=10%>
+        <hr>
+        <input type="radio" id="paytm"> Paytm
+        <img src="paytm.png" class="pay" alt="Image" width=10%>
+        <hr>
+        <div class="all">
+            <div class="detail"> Please Enter Your Card Details</div>
+            <p>Card Type:*
+                <select name="card type" id="card type" required>
+                    <option value=""required>----Select a Card Type----</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">Mastercard</option>
+                </select>
+            </p>
+
+            <p>Card Number * <input type="number" name="card number" id="card number" required>
+            </p>
+            <p>
+                Expiration Date: * <input type="date" name="exp date" required>
+            </p>
+            <p>CVV * <input type="password" name="cvv" id="cvv" required></p>
+        </div>
+    </div>
+    <a href="login.html" class="gb">GO BACK</a>
+    <a href="#" class="sub">SUBMIT</a>
+
+
+
+</body>
+
+</html>

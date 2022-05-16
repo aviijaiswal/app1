@@ -1,0 +1,41 @@
+    body {
+        background-image: url('loginwall.png');
+    }
+    
+    .main {
+        background-color: rgba(255, 166, 0, 0.616);
+        border-style: solid;
+        height: 570px;
+    }
+    
+    p {
+        text-align: left;
+    }
+    
+    a {
+        width: 100px;
+        height: auto;
+        background-color: white;
+        padding-left: 40px;
+        padding-right: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        top: 590px;
+        border-radius: 30px;
+    }
+    
+    .back:hover,
+    .pay:hover {
+        background-color: black;
+        color: white;
+        transform: scale(1.15);
+    }
+    
+    * {
+        transition: 0.6s ease-in-out;
+    }
+    
+    * {
+        transition: 0.6s ease-in-out;
+    }

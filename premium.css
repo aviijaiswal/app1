@@ -1,0 +1,40 @@
+    .prem {
+        border-style: solid;
+        height: 380px;
+        width: 330px;
+        margin-left: 410px;
+        background-color: aliceblue;
+    }
+    
+    a {
+        border-style: solid;
+        border-radius: 400px;
+        margin-left: 85px;
+        margin-right: 10px;
+        text-decoration: none;
+        background-color: plum
+    }
+    
+    a:hover {
+        background-color: black;
+        color: white;
+        transform: scale(1.15);
+    }
+    
+    * {
+        transition: 0.6s ease-in-out;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-right: 135px;
+        color: white;
+        border-style: solid;
+        border-radius: 444px;
+        margin-left: 350px;
+        margin-right: 460px;
+    }
+    
+    body {
+        background-image: url('wall.jpg');
+    }
